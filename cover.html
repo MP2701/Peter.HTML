@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" "ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to My Travel Blog</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url("jan.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      .cover-container {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 2em 3em;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+        color: #fff;
+      }
+      p {
+        margin: 1em 0;
+        font-size: 1.2em;
+        color: #fff;
+      }
+      .enter-button {
+        background-color: rgba(255, 255, 255, 0.3);
+        color: white;
+        border: none;
+        padding: 0.75em 2em;
+        font-size: 1.2em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+      .enter-button:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cover-container">
+      <h1>Welcome to My Travel Blog</h1>
+      <p>私のトラベルブログへようこそ！</p>
+      <button class="enter-button" onclick="location.href='index.html'">
+        Let's Go
+      </button>
+    </div>
+  </body>
+</html>
